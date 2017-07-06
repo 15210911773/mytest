@@ -8,6 +8,7 @@ public class AddOperation extends Operation {
 	}
 	
 	public double getResult(int t) {
+		int i = 0;
 		return this.getNumA() - this.getNumB();
 	}
 
