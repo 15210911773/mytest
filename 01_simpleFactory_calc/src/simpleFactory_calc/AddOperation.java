@@ -6,5 +6,9 @@ public class AddOperation extends Operation {
 	public double getResult() {
 		return this.getNumA() + this.getNumB();
 	}
+	
+	public double getResult(int t) {
+		return this.getNumA() - this.getNumB();
+	}
 
 }
